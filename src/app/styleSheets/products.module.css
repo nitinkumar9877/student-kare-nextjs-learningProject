@@ -1,0 +1,62 @@
+.ProductPageSection {
+    padding: 20px 24px;
+}
+
+.productsCardsParentDiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.productCard {
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc((100% - 45px)/4);
+    padding: 20px 25px;
+    height: 500px;
+}
+
+.imageClass {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 208, 208);
+}
+
+.productTitalAndRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.productName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productReview {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.productPrice {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.btnCard {
+    text-align: center;
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}

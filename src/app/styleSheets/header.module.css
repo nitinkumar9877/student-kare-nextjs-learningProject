@@ -1,0 +1,88 @@
+.HeaderDiv {
+    padding: 16px 24px;
+    display: flex;
+    background: linear-gradient(270deg, #1e293b 17%, #1c4d9d 99.99%);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSearchArea {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-right: 12px;
+}
+
+.dropdownParent {
+    background-color: #e5eaf0;
+    color: grey;
+    padding: 14px 22px;
+    font-size: 18px;
+}
+
+.headerSearch {
+    padding: 14px 0px;
+    font-size: 17px;
+    border: none;
+    width: 400px;
+}
+
+.headerSearch:focus {
+    outline: none;
+}
+
+.searchButton {
+    border: none;
+    background-color: #e5eaf0;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.searchIcon {
+    color: gray;
+    font-size: 18px;
+    display: block;
+}
+
+.headerBtnArea {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.supportBtn,
+.cardBtn,
+.profileBtn {
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.supportIcon,
+.cardIcon {
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.profileBtn {
+    border: 1px solid #3e63dd;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #3e63dd;
+}
